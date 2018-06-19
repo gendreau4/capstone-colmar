@@ -103,3 +103,58 @@ h4 {
   font-weight: 500;
   line-height: 1.45rem;
 }
+/*Middle section styling*/
+.mid-section{
+  display: flex;
+  justify-content: space-between;
+}
+.mid-section .container {
+  display: flex;
+  justify-content: space-between;
+}
+h3 {
+  display: block;
+}
+.right-section {
+  border-left: 1px solid lightgray;
+  padding: 16px 0px 32px 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.right-section img {
+  width: 35%;
+  padding: 16px;
+}
+.box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content {
+  padding: 16px 1px 16px 0px;
+  width: 100%;
+}
+h6 {
+  font-size: 1.1rem;
+  color: black;
+  font-weight: 500;
+}
+.content a {
+  color: blue;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  padding-top: .9rem;
+}
+.content p {
+  padding-top: 2px;
+}
+p {
+  font-weight: 400;
+  font-size: .8rem;
+  line-height: 1.2rem;
+  color: gray;
+}
