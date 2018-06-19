@@ -157,4 +157,5 @@ p {
   font-size: .8rem;
   line-height: 1.2rem;
   color: gray;
+  border: solid 2px red;
 }
