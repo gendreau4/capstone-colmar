@@ -48,10 +48,7 @@ nav {
   cursor: auto;
   text-decoration: none;
   color: black;
-
 }
-
-
 /*banner section styling*/
 .banner {
   background-color: lightgray;
@@ -85,6 +82,18 @@ h1 {
   font-weight: 700;
   color: black;
 }
+h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: black;
+  padding-bottom: 24px;
+}
+h4 {
+  font-size: 1.25rem;
+  color: black;
+  font-weight: 500;
+  line-height: 1.45rem;
+}
 .tagline h4 {
   margin-top: 18px;
   margin-bottom:18px;
@@ -97,12 +106,7 @@ h1 {
   text-align: center;
   text-decoration: none;
 }
-h4 {
-  font-size: 1.25rem;
-  color: black;
-  font-weight: 500;
-  line-height: 1.45rem;
-}
+
 /*Middle section styling*/
 .mid-section{
   display: flex;
@@ -112,9 +116,7 @@ h4 {
   display: flex;
   justify-content: space-between;
 }
-h3 {
-  display: block;
-}
+
 .right-section {
   border-left: 1px solid lightgray;
   padding: 16px 0px 32px 0px;
@@ -137,11 +139,6 @@ h3 {
   padding: 16px 1px 16px 0px;
   width: 100%;
 }
-h6 {
-  font-size: 1.1rem;
-  color: black;
-  font-weight: 500;
-}
 .content a {
   color: blue;
   text-decoration: none;
@@ -151,6 +148,7 @@ h6 {
 }
 .content p {
   padding-top: 2px;
+
 }
 p {
   font-weight: 400;
@@ -158,4 +156,51 @@ p {
   line-height: 1.2rem;
   color: gray;
   border: solid 2px red;
+}
+/*Lower Section*/
+
+.lower-section {
+  background-color: lightgray;
+  padding-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+.heading {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.course-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+}
+.course {
+  background-color: white;
+  height: 16rem;
+  width: 32%;
+  margin-bottom: 20px;
+  border: solid 2px green;
+}
+.course img {
+  width: 100%;
+}
+.course-content span {
+  font-size: .8rem;
+  color: gray;
+  border: solid 1px blue;
+}
+.course h6 {
+padding: 1rem;
+}
+h6 {
+  font-size: 1.10rem;
+  font-weight: 500;
 }
