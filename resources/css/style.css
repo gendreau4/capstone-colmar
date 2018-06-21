@@ -64,6 +64,7 @@ nav {
 }
 .left-section img {
   width: 100%;
+
 }
 .right-section {
   width: 440px;
@@ -139,6 +140,9 @@ h4 {
   padding: 16px 1px 16px 0px;
   width: 100%;
 }
+.third {
+  background-color: lightgray;
+}
 .content a {
   color: blue;
   text-decoration: none;
@@ -156,6 +160,12 @@ p {
   line-height: 1.2rem;
   color: gray;
   border: solid 2px red;
+}
+.left-section p {
+  padding: 24px 24px 24px 0px;
+}
+.left-section h2 {
+  padding-top: 32px;
 }
 /*Lower Section*/
 
@@ -203,4 +213,32 @@ padding: 1rem;
 h6 {
   font-size: 1.10rem;
   font-weight: 500;
+}
+/*thesis section*/
+.thesis {
+  padding: 32px 24px;
+}
+.thesis .container {
+  display: flex;
+  justify-content: space-between;
+}
+.thesis video {
+  width: 100%;
+}
+.thesis .right-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.first-lecture {
+  background-color: lightgray;
+}
+/*Footer Styling*/
+
+footer {
+  border-top: 1px solid lightgray;
+  background-color: white;
+  height: 3.5rem;
+
 }
