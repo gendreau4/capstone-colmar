@@ -7,8 +7,9 @@ html {
   margin: auto;
 }
 body {
-  font-family:'Ubuntu',sans-serif;
+  font-family:'Ubuntu', sans-serif;
   font-size: 1rem;
+  background-color: white;
 }
 
 /*header styling*/
@@ -44,11 +45,18 @@ nav {
 .desktop a {
   display: inline-block;
   padding-right: 16px;
+  color: black;
   font-size: 1rem;
   cursor: auto;
   text-decoration: none;
-  color: black;
 }
+.desktop a:hover {
+  color: gray;
+}
+.desktop a:active {
+  color: gray;
+}
+
 /*banner section styling*/
 .banner {
   background-color: lightgray;
@@ -96,18 +104,23 @@ h4 {
   line-height: 1.45rem;
 }
 .tagline h4 {
-  margin-top: 18px;
-  margin-bottom:18px;
+  margin-top: 32px;
+  margin-bottom:32px;
 }
 .tagline a {
   background-color: black;
   color: white;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   text-align: center;
   text-decoration: none;
 }
-
+.tagline a:hover {
+  background-color: gray;
+}
+.tagline a:active {
+  background-color: gray;
+}
 /*Middle section styling*/
 .mid-section{
   display: flex;
@@ -117,9 +130,10 @@ h4 {
   display: flex;
   justify-content: space-between;
 }
-
+.mid-section .right-section {
+  border-left: solid 1px lightgray;
+}
 .right-section {
-  border-left: 1px solid lightgray;
   padding: 16px 0px 32px 0px;
   display: flex;
   justify-content: flex-start;
@@ -140,32 +154,38 @@ h4 {
   padding: 16px 1px 16px 0px;
   width: 100%;
 }
+.first {
+  border-bottom: solid 1px lightgray;
+}
 .third {
   background-color: lightgray;
 }
 .content a {
   color: blue;
   text-decoration: none;
-  font-size: 14px;
+  font-size: .8rem;
   display: block;
-  padding-top: .9rem;
+  padding-top: 8px;
 }
 .content p {
-  padding-top: 2px;
-
+  padding-top: 8px;
 }
 p {
   font-weight: 400;
   font-size: .8rem;
   line-height: 1.2rem;
   color: gray;
-  border: solid 2px red;
 }
 .left-section p {
   padding: 24px 24px 24px 0px;
 }
 .left-section h2 {
   padding-top: 32px;
+}
+span {
+  font-size: .8rem;
+  color: black;
+  line-height: .95rem;
 }
 /*Lower Section*/
 
@@ -197,7 +217,6 @@ p {
   height: 16rem;
   width: 32%;
   margin-bottom: 20px;
-  border: solid 2px green;
 }
 .course img {
   width: 100%;
@@ -205,15 +224,25 @@ p {
 .course-content span {
   font-size: .8rem;
   color: gray;
-  border: solid 1px blue;
 }
-.course h6 {
-padding: 1rem;
+.course-content p {
+  font-size: .8rem;
+  color: gray;
+  padding-top: .5rem;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+.course-content {
+  padding:16px 16px 24px 16px;
 }
 h6 {
   font-size: 1.10rem;
   font-weight: 500;
 }
+.course h6 {
+padding-bottom: 1rem;
+}
+
 /*thesis section*/
 .thesis {
   padding: 32px 24px;
@@ -240,5 +269,25 @@ footer {
   border-top: 1px solid lightgray;
   background-color: white;
   height: 3.5rem;
-
+  color:lightgray;
+  font-size: .8rem;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: .75rem;
+}
+.footer-nav a {
+  display: inline-block;
+  padding-right: 16px;
+  color: black;
+  cursor:auto;
+  text-decoration: none;
+}
+.footer-nav a:hover {
+  color:gray;
+}
+.footer-nav a:active {
+  color: gray;
 }
