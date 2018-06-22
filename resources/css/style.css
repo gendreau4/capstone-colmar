@@ -147,17 +147,22 @@ h4 {
   .banner .container {
     display: block;
   }
+  .banner .right-section {
+    padding: 16px 16px 32px 16px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
   .left-section {
     width: 100%;
     padding: 0;
   }
-  .banner img {
-    width: 100%;
+  .tagline {
+    margin-top: 2rem;
   }
   .tagline a {
-    width: 100%;
     background-color: gray;
-    margin-right: auto;
+    width: 100%;
   }
   .tagline a:hover {
     opacity: .7;
